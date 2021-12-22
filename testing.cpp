@@ -1,8 +1,9 @@
 #include <iostream>
-int main()
-{
-    std::cout << "/*";
-    std::cout << "*/";
-    std::cout << /* "*/" /* "/*" */;
-    std::cout << /* "*/" */ ";
+#include "Sales_item.h"
+
+int main() {
+    Sales_item book;
+    std::cin >> book; 
+    std::cout << book.isbn();
+    return 0;
 }
