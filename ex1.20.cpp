@@ -1,7 +1,7 @@
 #include <iostream>
 #include "Sales_item.h"
 
-// This definitely doesn't work as I wish it to.
+// The exercise description was weird.
 int main() {
     Sales_item book;
     // read until end-of-file, calculating a running total of all values read
